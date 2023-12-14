@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RUBwpOclzb2TsNI9xQ/q31IbCw4kbnY0pn48a87brscPMumZvoutFqcwy9qU6nTh+hBS+sIwQMlYxVi92SbwJQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\MeuWebApi\\MeuWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.0\\microsoft.dotnet.ilcompiler.8.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.0\\microsoft.net.illink.tasks.8.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.0\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
