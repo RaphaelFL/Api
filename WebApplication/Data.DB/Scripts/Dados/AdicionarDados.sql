@@ -1,0 +1,23 @@
+﻿INSERT INTO
+	[dbo].[Dados]
+(
+	[Id],
+	[IdCategoria],
+	[Nome],
+	[Localidade],
+    [Ordem],
+	[Ativo],
+	[DataCadastro],
+	[DataAlteracao]
+)
+VALUES
+(
+	NEWID(),
+	@IdCategoria,
+	@Nome,
+	@Localidade,
+    @Ordem,
+	1,
+	GETDATE(),
+	NULL
+)

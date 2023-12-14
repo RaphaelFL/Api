@@ -1,6 +1,8 @@
+using InfraCode.IoC;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateSlimBuilder(args);
+builder.Services.ConfigureDependencyInjection(builder.Configuration);
 
 builder.Services.ConfigureHttpJsonOptions(options =>
 {

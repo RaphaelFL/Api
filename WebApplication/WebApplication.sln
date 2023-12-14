@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Data", "3-Data", "{687604
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infracode", "4-Infracode", "{7D3125C8-7353-4020-8ECD-39DBF1387077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraCode.IoC", "InfraCode.IoC\InfraCode.IoC.csproj", "{5EC35777-BB3B-4949-96CD-307289784371}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfraCode.IoC", "InfraCode.IoC\InfraCode.IoC.csproj", "{5EC35777-BB3B-4949-96CD-307289784371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Business", "Domain.Business\Domain.Business.csproj", "{161C3E43-A1A4-4520-B0FD-683317E24FE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Business", "Domain.Business\Domain.Business.csproj", "{161C3E43-A1A4-4520-B0FD-683317E24FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Interface", "Domain.Interface\Domain.Interface.csproj", "{28397095-ABF3-4BB5-AA2A-C2F6A67F0C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Interface", "Domain.Interface\Domain.Interface.csproj", "{28397095-ABF3-4BB5-AA2A-C2F6A67F0C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Model", "Domain.Model\Domain.Model.csproj", "{3DD60778-0B10-4022-ABBD-DAAAD3A3742B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Model", "Domain.Model\Domain.Model.csproj", "{3DD60778-0B10-4022-ABBD-DAAAD3A3742B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.DB", "Data.DB\Data.DB.csproj", "{603B3422-5DCD-4489-83C3-76159DD7775A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.DB", "Data.DB\Data.DB.csproj", "{603B3422-5DCD-4489-83C3-76159DD7775A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,8 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "x3ehNF81ln2LTFe418+4sujQ90pHKw7Pspy6sonKs7xpDgcUNR/VW5k/Qaoq+UBXJJTe3FfCjPvwcdQVNOp9hw==",
+  "dgSpecHash": "OrB9FvEBSKnxHDzHaXzrr6FqR9+Aghde4iDHg+Ln+wG8YSTtJXXpJ+9LtLzbrhnIn9MrL8CthSd+lijPxrjmAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\Domain.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\mimetypes\\2.4.1\\mimetypes.2.4.1.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\servicestack\\8.0.0\\servicestack.8.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\servicestack.client\\8.0.0\\servicestack.client.8.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\servicestack.common\\8.0.0\\servicestack.common.8.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\servicestack.interfaces\\8.0.0\\servicestack.interfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\servicestack.text\\8.0.0\\servicestack.text.8.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

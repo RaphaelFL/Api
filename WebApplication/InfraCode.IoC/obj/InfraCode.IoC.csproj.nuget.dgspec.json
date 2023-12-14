@@ -4,14 +4,299 @@
     "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\InfraCode.IoC\\InfraCode.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\InfraCode.IoC\\InfraCode.IoC.csproj": {
+    "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Data.DB\\Data.DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\InfraCode.IoC\\InfraCode.IoC.csproj",
-        "projectName": "InfraCode.IoC",
-        "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\InfraCode.IoC\\InfraCode.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Data.DB\\Data.DB.csproj",
+        "projectName": "Data.DB",
+        "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Data.DB\\Data.DB.csproj",
         "packagesPath": "C:\\Users\\Raphael lopes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\InfraCode.IoC\\obj\\",
+        "outputPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Data.DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raphael lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\Domain.Business.csproj": {
+                "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\Domain.Business.csproj"
+              },
+              "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.24, )"
+            },
+            "Dapper.FluentMap": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.55, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\Domain.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\Domain.Business.csproj",
+        "projectName": "Domain.Business",
+        "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\Domain.Business.csproj",
+        "packagesPath": "C:\\Users\\Raphael lopes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raphael lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Interface\\Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Interface\\Domain.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "MimeTypes": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Interface\\Domain.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Interface\\Domain.Interface.csproj",
+        "projectName": "Domain.Interface",
+        "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Interface\\Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\Raphael lopes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raphael lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\Domain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\Domain.Model.csproj",
+        "projectName": "Domain.Model",
+        "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\Raphael lopes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +329,97 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\InfraCode.IoC\\InfraCode.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\InfraCode.IoC\\InfraCode.IoC.csproj",
+        "projectName": "InfraCode.IoC",
+        "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\InfraCode.IoC\\InfraCode.IoC.csproj",
+        "packagesPath": "C:\\Users\\Raphael lopes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\InfraCode.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Raphael lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Data.DB\\Data.DB.csproj": {
+                "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Data.DB\\Data.DB.csproj"
+              },
+              "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\Domain.Business.csproj": {
+                "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\Domain.Business.csproj"
+              },
+              "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Interface\\Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Interface\\Domain.Interface.csproj"
+              },
+              "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Model\\Domain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
