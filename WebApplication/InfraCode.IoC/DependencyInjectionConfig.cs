@@ -2,6 +2,7 @@
 using Data.DB.Repositories;
 using Domain.Interface.Repositories;
 using Domain.Interface.Services;
+using Domain.Model.ValueObjects;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -28,6 +29,12 @@ public static class DependencyInjectionConfig
 
         //services.Configure<UploadConfiguration>(
         //    config.GetSection(UploadConfiguration.SectionName));
+
+        services.AddSingleton(new EdicaoDados
+        {
+            EdicaoDadosMenorOuIgual = config.GetSection("EdicaoPrimeiroDia:EdicaoDadosMenorOuIgual").Get<List<int>>(),
+            EdicaoDadosMaior = config.GetSection("EdicaoPrimeiroDia:EdicaoDadosMaior").Get<List<int>>()
+        });
         #endregion
 
         #region Services
