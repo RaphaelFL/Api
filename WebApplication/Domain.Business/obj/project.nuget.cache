@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OrB9FvEBSKnxHDzHaXzrr6FqR9+Aghde4iDHg+Ln+wG8YSTtJXXpJ+9LtLzbrhnIn9MrL8CthSd+lijPxrjmAg==",
+  "dgSpecHash": "tJCUNS1clrGsjkfYS/S4WOjWG9XVj40ppV/o8Irv+X0IZY78p0tE7efGiG58Go9gV1d45dk29IKK6uLaq/H1gQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Raphael lopes\\Desktop\\Api\\WebApplication\\Domain.Business\\Domain.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.32\\microsoft.aspnetcore.http.features.3.1.32.nupkg.sha512",
     "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Raphael lopes\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
@@ -24,6 +25,7 @@
     "C:\\Users\\Raphael lopes\\.nuget\\packages\\servicestack.text\\8.0.0\\servicestack.text.8.0.0.nupkg.sha512",
     "C:\\Users\\Raphael lopes\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Raphael lopes\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+    "C:\\Users\\Raphael lopes\\.nuget\\packages\\system.io.pipelines\\4.7.5\\system.io.pipelines.4.7.5.nupkg.sha512",
     "C:\\Users\\Raphael lopes\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\Raphael lopes\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
